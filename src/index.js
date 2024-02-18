@@ -8,3 +8,9 @@ const feature_feita_pelo_programador2 = () => {
 }
 
 feature_feita_pelo_programador2()
+
+const executar = () =>{
+    console.log("Feature1 Commit1")
+}
+
+executar()
