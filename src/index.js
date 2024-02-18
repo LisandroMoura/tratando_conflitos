@@ -1,6 +1,5 @@
 console.log("Commit1 master")
 console.log("Commit2 master")
-
 console.log("Commit3 master")
 
 
@@ -10,11 +9,16 @@ const featureFeitaPeloProgramador2 = () => {
     console.log("feature2 feita pelo programador 2")
 }
 
-feature_feita_pelo_programador2()
-
 const executar = () =>{
     console.log("Feature1 Commit1")
 }
 
+const bomDia = (nome) => {
+    console.log("Bom dia querid(a/o): " + nome)
+}
+
+/////////////////////////////////////////////
+// execuções:
 featureFeitaPeloProgramador2()
 executar()
+bomDia("Baby")
