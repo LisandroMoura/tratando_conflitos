@@ -3,8 +3,7 @@ console.log("Commit2 master")
 console.log("Commit3 master")
 
 
-/////////////////////////////////////////////
-// bloco de funções criadas
+
 const featureFeitaPeloProgramador2 = () => {
     console.log("feature2 feita pelo programador 2")
 }
@@ -22,9 +21,19 @@ const bomDiaBatata = (nome) => {
 }
 
 
-/////////////////////////////////////////////
-// execuções:
+
+
+const bomDiaSkate = () => {
+    console.log("Bom dia linda Skate do papai")
+}
+
+const cantarMusicaParaPipi = () => {
+    console.log("Pia pipi,\n pia pip faz\n pipi pipi")
+}
+
 featureFeitaPeloProgramador2()
 executar()
 bomDia("Baby")
 bomDiaBatata("Batatinha")
+bomDiaSkate()
+cantarMusicaParaPipi()
