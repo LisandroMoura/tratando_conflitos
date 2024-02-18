@@ -28,6 +28,11 @@ const bomDiaSkate = () => {
     console.log("Bom dia linda Skate do papai")
 }
 
+// 5-cantar-musica-para-pipi 
+const cantarMusicaParaPipi = () => {
+    console.log("Pia pipi,\n pia pip faz\n pipi pipi")
+}
+
 /////////////////////////////////////////////
 // execuções:
 featureFeitaPeloProgramador2()
@@ -35,3 +40,4 @@ executar()
 bomDia("Baby")
 bomDiaBatata("Batatinha")
 bomDiaSkate()
+cantarMusicaParaPipi()
