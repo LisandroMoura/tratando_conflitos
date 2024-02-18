@@ -17,8 +17,15 @@ const bomDia = (nome) => {
     console.log("Bom dia querid(a/o): " + nome)
 }
 
+
+// 3-função-para-dar-bom-dia-para-a-skate
+const bomDiaSkate = () => {
+    console.log("Bom dia linda Skate do papai")
+}
+
 /////////////////////////////////////////////
 // execuções:
 featureFeitaPeloProgramador2()
 executar()
 bomDia("Baby")
+bomDiaSkate()
