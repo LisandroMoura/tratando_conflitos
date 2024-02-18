@@ -22,9 +22,16 @@ const bomDiaBatata = (nome) => {
 }
 
 
+
+// 3-função-para-dar-bom-dia-para-a-skate
+const bomDiaSkate = () => {
+    console.log("Bom dia linda Skate do papai")
+}
+
 /////////////////////////////////////////////
 // execuções:
 featureFeitaPeloProgramador2()
 executar()
 bomDia("Baby")
 bomDiaBatata("Batatinha")
+bomDiaSkate()
